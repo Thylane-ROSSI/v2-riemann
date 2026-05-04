@@ -75,7 +75,7 @@ def download_and_process_riemann_ood(device='cpu'):
         print(f"Error downloading data: {e}")
         return np.array([])
     
-    zeros_ood = np.array([float(val) for val in data[:100000]])
+    zeros_ood = np.array([float(val) for val in data])
     print(f"Successfully downloaded {len(zeros_ood):,} zeros.")
     
     print("Unfolding spectrum and computing 3-body correlations...")
@@ -103,7 +103,7 @@ if __name__ == "__main__":
     print(f"Using computational device: {device.type.upper()}")
     
     # Generate datasets (reduced matrix count for local testing)
-    gue_data = generate_gue_c3(n_matrices=1000, n_size=1000, device=device)
+    gue_data = generate_gue_c3(n_matrices=5000, n_size=1000, device=device)
     riemann_data = download_and_process_riemann_ood(device=device)
     
     # Persist data to disk for subsequent model training
