@@ -48,7 +48,12 @@ The explainability analysis (SHAP) unveils the network's strategy... [suite du t
 
 **Empirical Conclusion:** While quantum chaos and prime numbers share identical statistics at the scale of adjacent pairs, this study demonstrates that the Wigner-Dyson universality breaks down significantly when sequentially observing 3-body correlations.
 
-## 5. References
-* Odlyzko, A. M. (1987). On the distribution of spacings between zeros of the zeta function. *Mathematics of Computation*, 48(177), 273-308. [Tables of zeros](http://www.dtc.umn.edu/~odlyzko/zeta_tables/)
-* Montgomery, H. L. (1973). The pair correlation of zeros of the zeta function. *Analytic number theory*, 181-193.
-* Mehta, M. L. (2004). *Random matrices* (Vol. 142). Elsevier.
+## 5. References & Technical Foundations
+
+**Mathematical Theory & Data Sources:**
+* **Odlyzko, A. M. (1987).** On the distribution of spacings between zeros of the zeta function. *Mathematics of Computation*. [[High-Altitude Dataset Tables]](http://www.dtc.umn.edu/~odlyzko/zeta_tables/)
+* **Montgomery, H. L. (1973).** The pair correlation of zeros of the zeta function. *Analytic number theory*, 181-193. [[PDF Link]](https://websites.umich.edu/~hlm/paircor1.pdf)
+* **Derbyshire, J. (2004).** *Prime Obsession: Bernhard Riemann and the Greatest Unsolved Problem in Mathematics.* * **Wikipedia:** [Riemann Zeta Function](https://en.wikipedia.org/wiki/Riemann_zeta_function) (Comprehensive overview of the Zeta function, its mathematical properties, and its fundamental link to prime numbers).
+
+**Machine Learning & Architecture:**
+* **Deep Learning Specialization (Coursera).** Technical foundation and neural network architecture principles provided by **Andrew Ng (DeepLearning.AI)**. [[Course Link]](https://www.coursera.org/specializations/deep-learning)
